@@ -1,0 +1,106 @@
+#remen{
+	height: 356px;
+	/*宽度默认100%   可省略*/
+	margin-top: 60px;
+	margin-bottom: 80px;
+	/*background-color: orange;*/
+	
+}
+#remen>h2{
+	margin-bottom: 30px;
+}
+#remen-cuangkou{
+	width: 1000px;
+	height: 291px;
+	background-color: blue;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+#remenimg{
+	width: calc(1000px * 5);
+	height: 291px;
+	/*float: left;*/
+	transition: all 1s;
+}
+#remenimg>img{
+	width: 1000px;
+	height: 291px;
+	float: left;
+}
+#remen-fyq{
+	width: 1000px;
+	height: 32px;
+	/*background-color: skyblue;*/
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0; 
+	
+}
+#remen-fyq>span{
+	display: inline-block;
+	width: 180px;
+	height: 18px;
+	padding: 6px 0;
+	/*background-color: #eaadea;*/
+	margin: 0 auto;
+	text-align: center;
+	border-top: 2px solid #00000000;
+	background-color: rgba(255,255,255,0.8);
+
+}
+#remen-fyq>span:nth-of-type(2){
+	width: 255px;
+}
+#remen-fyq>span>p{
+	display: inline-block;
+	font-style: normal;
+	/*文字居中*/
+	text-align: center;
+	/*行高*/
+    line-height: 16px;
+    /*文字颜色*/
+    color: rgb(102, 102, 102);
+    /*文字粗细*/
+    font-weight: 200;
+    /*文字大小*/
+    font-size: 13px;
+    /*width: 70px;*/
+    height: 16px;
+    padding: 0 14px;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    letter-spacing:0px; 
+    white-space:nowrap;
+}
+#remen-fyq>span:hover{
+	border-top: 2px solid red;
+	/*border-bottom: 2px solid #00000000;*/
+	background-color: rgba(255,255,255,0.9);
+	margin: 0 auto;
+	text-align: center;
+}
+#remen-fyq>span>p:hover{
+	color: rgb(255,102,102);
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

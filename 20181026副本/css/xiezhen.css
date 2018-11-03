@@ -1,0 +1,176 @@
+.xiezhen{
+	width: 1000px;
+	height: 1179px;
+	/*
+		外边距写在一起
+		上为0，下为80，左右为auto
+	*/
+	margin: 0 auto 80px auto;
+	/*background-color: pink;*/
+}
+.xztop{
+	width: 191px;
+	height: 39px;
+	margin: 0 auto;
+	font-size: 14px;
+	letter-spacing: 5px;
+	color: #666;
+	text-align: center;
+	line-height: 39px;
+	position: relative;
+
+}
+.xztop>span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+
+}
+.xztop>span:nth-of-type(1){
+	border-top: 1px solid #f66;
+	border-left: 1px solid #f66;
+	top: 0;
+	left: 0;
+}
+.xztop>span:nth-of-type(2){
+	border-top: 1px solid #f66;
+	border-right: 1px solid #f66;
+	top: 0;
+	right: 0; 
+}
+.xztop>span:nth-of-type(3){
+	border-bottom: 1px solid #f66;
+	border-left: 1px solid #f66;
+	bottom: 0;
+	left: 0; 
+}
+.xztop>span:nth-of-type(4){
+	border-bottom: 1px solid #f66;
+	border-right: 1px solid #f66;
+	bottom: 0;
+	right: 0; 
+}
+.xza{
+	width: 1000px;
+	height: 17px;
+	margin-bottom: 20px;
+	/*文字内容向右*/
+	text-align: right;
+}
+.xza>a{
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 12px;
+}
+.xza>a:hover{
+	text-decoration: underline;
+}
+
+/*主体部分 6个div*/
+.xzzhuti{
+	width: 1000px;
+	height: 1000px;
+
+	/*float: left;*/
+	/*background-color: skyblue;*/
+}
+.xzzhuti>div{
+	width: 318px;
+	height: 318px;
+	float: left;
+	/*background-color: orange;*/
+	border: 1px solid #a8a8a8;
+}
+.xzzhuti>div:nth-of-type(1){
+	width: 658px;
+	height: 658px;
+	margin: 0 20px 20px 0;
+}
+.xzzhuti>div:nth-of-type(2),.xzzhuti>div:nth-of-type(3){
+	margin-bottom: 20px;
+}
+/*第五个之后的div   (包含第五个)*/
+.xzzhuti>div:nth-of-type(n+5){
+	margin-left: 20px;
+}
+.xzzhuti>div:nth-of-type(1)>img{
+	width: 660px;
+	height: 660px;
+}
+.xzzhuti>div:nth-of-type(n+2)>img{
+	width: 318px;
+	height: 210px;
+}
+
+
+.xzzhuti span{
+	font-size: 16px;
+    line-height: 1.3;
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    text-align: center;
+    font-weight: 100;
+    padding: 0 10px;
+}
+.xzzhuti h1{
+	text-align: center;
+}
+.xzzhuti h3{
+	margin-bottom: 5px;
+    font-size: 14px;
+    color: rgb(255, 102, 102);
+    text-align: center;
+    font-weight: 100;
+}
+.xzzhuti p{
+	font-size: 12px;
+	color: rgb(102, 102, 102);
+	text-align: center;
+	font-weight: 100;
+}
+.xzzhuti>div:hover span{
+	border-left: 1px solid red;
+	border-right: 1px solid red;	
+}
+.xzgengduo{
+	width: 1000px;
+	height: 32px;
+	margin-top: 25px;
+	text-align: center;
+}
+.xzgengduo>a{
+	display: inline-block;
+	width: 84px;
+	height: 16px;
+	padding: 7px 35px;
+	border: 1px dashed rgb(255,102,102);
+	font-size: 14px;
+	color: rgb(102,102,120);
+	text-decoration: none;
+	font-weight: 100;
+}
+.xzgengduo>a:hover{
+	background-color: rgb(255, 102, 102);
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
